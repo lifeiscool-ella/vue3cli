@@ -13,7 +13,7 @@ export default {
   name: "Home",
   components: {Card},
   setup() {
-    axios.get("/api/items").then((res) => {
+    axios.get("/rest/items").then((res) => {
       console.log(res)
     })
   }
